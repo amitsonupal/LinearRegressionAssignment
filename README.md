@@ -45,8 +45,7 @@ The primary objective is to identify the key variables that significantly influe
 ## Conclusions
 
 - The equation of the best fit line is given by:
-  𝑐𝑛𝑡=0.1909+0.2341×𝑦𝑒𝑎𝑟−0.0963×ℎ𝑜𝑙𝑖𝑑𝑎𝑦+0.4777×𝑡𝑒𝑚𝑝−0.1481×𝑤𝑖𝑛𝑑𝑠𝑝𝑒𝑒𝑑+0.0910×𝑆𝑒𝑝−0.2850×𝐿𝑖𝑔ℎ𝑡𝑠𝑛𝑜𝑤𝑟𝑎𝑖𝑛−0.0787×𝑀𝑖𝑠𝑡𝑦−0.0554×𝑆𝑝𝑟𝑖𝑛𝑔+0.0621×𝑆𝑢𝑚𝑚𝑒𝑟+0.0945×𝑊𝑖𝑛𝑡𝑒𝑟
-  $ cnt = 0.1909 + 0.2341  \times  year - 0.0963  \times  holiday + 0.4777 \times temp - 0.1481 \times windspeed + 0.0910 \times Sep - 0.2850 \times Light_snowrain - 0.0787 \times Misty - 0.0554 \times Spring + 0.0621 \times Summer + 0.0945 \times Winter $
+𝑐𝑛𝑡=0.1909+0.2341×𝑦𝑒𝑎𝑟−0.0963×ℎ𝑜𝑙𝑖𝑑𝑎𝑦+0.4777×𝑡𝑒𝑚𝑝−0.1481×𝑤𝑖𝑛𝑑𝑠𝑝𝑒𝑒𝑑+0.0910×𝑆𝑒𝑝−0.2850×𝐿𝑖𝑔ℎ𝑡𝑠𝑛𝑜𝑤𝑟𝑎𝑖𝑛−0.0787×𝑀𝑖𝑠𝑡𝑦−0.0554×𝑆𝑝𝑟𝑖𝑛𝑔+0.0621×𝑆𝑢𝑚𝑚𝑒𝑟+0.0945×𝑊𝑖𝑛𝑡𝑒𝑟  
 - The close alignment of R2 and adjusted R2 values between the training and test sets (R2: 0.833 vs. 0.8038 and Adjusted R2: 0.829 vs. 0.7944) in a linear regression model indicates effective generalization. This similarity suggests the model avoids overfitting to the training data and is likely to perform consistently on new, unseen data.
 - Bike demand is influenced by features such as **yr**, **workingday**, **temp**, **hum**, **windspeed**, **Summer**, **Winter**, **September**, and **Sunday**.
 - Three key feature variables, **temp**, **yr**, and **Winter**, exhibit the highest coefficient values, indicating their significant impact.
